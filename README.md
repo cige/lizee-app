@@ -60,7 +60,7 @@ NestJS enforces to use a elegant architecture module-driven. A module is meant t
 
 Here `src/rental` is a module that offers a service to get product availabilities or to book a product item. In other words, its function is to deal with all the rental part of the solution (the only one, for now). Within this module we can find the database schema definitions in files suffixed with `.entity.ts`
 
-For the database I chosed to mount 2 tables: one to get tracks on product items, the other to store the rental bookings.
+For the database I chose to mount 2 tables: one to get tracks on product items, the other to store the rental bookings.
 You can find 2 pieces of business logic in file `src/rental/rental.service`.
 
 ## Criticism
