@@ -7,6 +7,7 @@ I used TypeORM to connect my services with the database.
 The server exposes an API with 2 endpoints:
 - `/avaibility` to get product availabilty for a given time period
 - `/checkout` if you want to simulate a checkout and see if availabilities change.
+
 The simpliest way to test the solution is to follow the instructions below.
 
 ## Required
