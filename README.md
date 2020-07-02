@@ -4,7 +4,7 @@
 
 Here is my attempt for the technical test - backend focused. It consists of a NestJS server connected to a PostgreSQL database.
 I used TypeORM to connect my services with the database.
-The server exposes an API with 2 enpoints:
+The server exposes an API with 2 endpoints:
 - `/avaibility` to get product availabilty for a given time period
 - `/checkout` if you want to simulate a checkout and see if availabilities change.
 The simpliest way to test the solution is to follow the instructions below.
@@ -30,10 +30,10 @@ $ npm demo:launch
 ```
 
 Basically it will:
--build the project
--deploy a dockerized version of PostgreSQL on `127.0.0.1:5432` (make sure this address is free)
--create the tables
--launch the server on `localhost:3000` and populate the tables with some dummy data
+- build the project
+- deploy a dockerized version of PostgreSQL on `127.0.0.1:5432` (make sure this address is free)
+- create the tables
+- launch the server on `localhost:3000` and populate the tables with some dummy data
 
 once all is working fine, you can launch another terminal and type:
 
