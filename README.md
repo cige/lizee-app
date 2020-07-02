@@ -38,19 +38,19 @@ Basically it will:
 once all is working fine, you can launch another terminal and type:
 
 ```bash
-$ npm demo:test
+$ npm run demo:test
 ```
 
 then maybe (it will book the available tent for the given period)
 
 ```bash
-$ npm demo:checkout
+$ npm run demo:checkout
 ```
 
 and re
 
 ```bash
-$ npm demo:test
+$ npm run demo:test
 ```
 
 ## Architecture
@@ -70,6 +70,6 @@ The migration task doesn't seem to work if we perform a change on data-model. I 
 
 No automical tests have been set up.
 
-The business logic part is not that scalable. 
+The business logic part is not that scalable.
 
 
